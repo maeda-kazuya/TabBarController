@@ -7,8 +7,11 @@
 //
 
 #import "TRAppDelegate.h"
-
 #import "TRViewController.h"
+#import "TRTabBarController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @implementation TRAppDelegate
 
@@ -21,7 +24,33 @@
     } else {
         self.viewController = [[TRViewController alloc] initWithNibName:@"TRViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+//    self.window.rootViewController = self.viewController;
+//    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
+    
+//    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController = [[TRTabBarController alloc] init];
+
+    FirstViewController *firstViewController = [[FirstViewController alloc] init];
+    SecondViewController *secondViewController = [[SecondViewController alloc] init];
+    ThirdViewController *thirdViewController = [[ThirdViewController alloc] init];
+    
+    UITabBarItem *firstItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:0];
+	[firstItem addTarget:self action:@selector(selectItem1) forControlEvents:UIControlEventTouchUpInside];
+    
+    UITabBarItem *secondItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemDownloads tag:1];
+    UITabBarItem *thirdItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:2];
+    
+    firstViewController.tabBarItem = firstItem;
+    secondViewController.tabBarItem = secondItem;
+    thirdViewController.tabBarItem = thirdItem;
+    
+    NSArray* controllers = [NSArray arrayWithObjects:firstViewController, secondViewController, thirdViewController, nil];
+    self.tabBarController.viewControllers = controllers;
+    
+    self.window.rootViewController = self.tabBarController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -52,5 +81,10 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (void)selectItem1 {
+	[self.tabBarController selectItemWithTag:0];
+}
+
 
 @end

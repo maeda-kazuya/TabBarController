@@ -24,6 +24,20 @@
 		CE0EF2FF174F0C6B00959D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0EF2D7174F0C6B00959D8F /* Foundation.framework */; };
 		CE0EF307174F0C6B00959D8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF305174F0C6B00959D8F /* InfoPlist.strings */; };
 		CE0EF30A174F0C6B00959D8F /* UniqueTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF309174F0C6B00959D8F /* UniqueTabBarControllerTests.m */; };
+		CE0EF316174F109A00959D8F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF314174F109A00959D8F /* FirstViewController.m */; };
+		CE0EF317174F109A00959D8F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF314174F109A00959D8F /* FirstViewController.m */; };
+		CE0EF318174F109A00959D8F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF315174F109A00959D8F /* FirstViewController.xib */; };
+		CE0EF319174F109A00959D8F /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF315174F109A00959D8F /* FirstViewController.xib */; };
+		CE0EF32B174F34F400959D8F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF329174F34F300959D8F /* ThirdViewController.m */; };
+		CE0EF32C174F34F400959D8F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF329174F34F300959D8F /* ThirdViewController.m */; };
+		CE0EF32D174F34F400959D8F /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF32A174F34F300959D8F /* ThirdViewController.xib */; };
+		CE0EF32E174F34F400959D8F /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF32A174F34F300959D8F /* ThirdViewController.xib */; };
+		CE0EF332174F356100959D8F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF330174F356100959D8F /* SecondViewController.m */; };
+		CE0EF333174F356100959D8F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF330174F356100959D8F /* SecondViewController.m */; };
+		CE0EF334174F356100959D8F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF331174F356100959D8F /* SecondViewController.xib */; };
+		CE0EF335174F356100959D8F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0EF331174F356100959D8F /* SecondViewController.xib */; };
+		CE0EF338174F357F00959D8F /* TRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF337174F357F00959D8F /* TRTabBarController.m */; };
+		CE0EF339174F357F00959D8F /* TRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0EF337174F357F00959D8F /* TRTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +74,17 @@
 		CE0EF306174F0C6B00959D8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE0EF308174F0C6B00959D8F /* UniqueTabBarControllerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniqueTabBarControllerTests.h; sourceTree = "<group>"; };
 		CE0EF309174F0C6B00959D8F /* UniqueTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniqueTabBarControllerTests.m; sourceTree = "<group>"; };
+		CE0EF313174F109A00959D8F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CE0EF314174F109A00959D8F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CE0EF315174F109A00959D8F /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		CE0EF328174F34F300959D8F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CE0EF329174F34F300959D8F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CE0EF32A174F34F300959D8F /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		CE0EF32F174F356100959D8F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CE0EF330174F356100959D8F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CE0EF331174F356100959D8F /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		CE0EF336174F357F00959D8F /* TRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTabBarController.h; sourceTree = "<group>"; };
+		CE0EF337174F357F00959D8F /* TRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +151,17 @@
 				CE0EF2F0174F0C6B00959D8F /* TRViewController_iPhone.xib */,
 				CE0EF2F3174F0C6B00959D8F /* TRViewController_iPad.xib */,
 				CE0EF2DC174F0C6B00959D8F /* Supporting Files */,
+				CE0EF313174F109A00959D8F /* FirstViewController.h */,
+				CE0EF314174F109A00959D8F /* FirstViewController.m */,
+				CE0EF315174F109A00959D8F /* FirstViewController.xib */,
+				CE0EF328174F34F300959D8F /* ThirdViewController.h */,
+				CE0EF329174F34F300959D8F /* ThirdViewController.m */,
+				CE0EF32A174F34F300959D8F /* ThirdViewController.xib */,
+				CE0EF32F174F356100959D8F /* SecondViewController.h */,
+				CE0EF330174F356100959D8F /* SecondViewController.m */,
+				CE0EF331174F356100959D8F /* SecondViewController.xib */,
+				CE0EF336174F357F00959D8F /* TRTabBarController.h */,
+				CE0EF337174F357F00959D8F /* TRTabBarController.m */,
 			);
 			path = UniqueTabBarController;
 			sourceTree = "<group>";
@@ -241,6 +277,9 @@
 				CE0EF2EC174F0C6B00959D8F /* Default-568h@2x.png in Resources */,
 				CE0EF2F2174F0C6B00959D8F /* TRViewController_iPhone.xib in Resources */,
 				CE0EF2F5174F0C6B00959D8F /* TRViewController_iPad.xib in Resources */,
+				CE0EF318174F109A00959D8F /* FirstViewController.xib in Resources */,
+				CE0EF32D174F34F400959D8F /* ThirdViewController.xib in Resources */,
+				CE0EF334174F356100959D8F /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0EF307174F0C6B00959D8F /* InfoPlist.strings in Resources */,
+				CE0EF319174F109A00959D8F /* FirstViewController.xib in Resources */,
+				CE0EF32E174F34F400959D8F /* ThirdViewController.xib in Resources */,
+				CE0EF335174F356100959D8F /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +320,10 @@
 				CE0EF2E2174F0C6B00959D8F /* main.m in Sources */,
 				CE0EF2E6174F0C6B00959D8F /* TRAppDelegate.m in Sources */,
 				CE0EF2EF174F0C6B00959D8F /* TRViewController.m in Sources */,
+				CE0EF316174F109A00959D8F /* FirstViewController.m in Sources */,
+				CE0EF32B174F34F400959D8F /* ThirdViewController.m in Sources */,
+				CE0EF332174F356100959D8F /* SecondViewController.m in Sources */,
+				CE0EF338174F357F00959D8F /* TRTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE0EF30A174F0C6B00959D8F /* UniqueTabBarControllerTests.m in Sources */,
+				CE0EF317174F109A00959D8F /* FirstViewController.m in Sources */,
+				CE0EF32C174F34F400959D8F /* ThirdViewController.m in Sources */,
+				CE0EF333174F356100959D8F /* SecondViewController.m in Sources */,
+				CE0EF339174F357F00959D8F /* TRTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +518,7 @@
 				CE0EF30F174F0C6B00959D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE0EF310174F0C6B00959D8F /* Build configuration list for PBXNativeTarget "UniqueTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +527,7 @@
 				CE0EF312174F0C6B00959D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

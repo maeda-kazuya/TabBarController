@@ -7,7 +7,7 @@
 //
 
 #import "TRViewController.h"
-
+#import "FirstViewController.h"
 @interface TRViewController ()
 
 @end
@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)nextButtonTapped:(id)sender {
+    FirstViewController *nextViewController = [[FirstViewController alloc] init];
+//    [self.navigationController pushViewController:trTabBarController animated:YES];
+    [self presentViewController:nextViewController animated:YES completion:^void {
+        NSLog(@"nextButton tapped.");
+    }];
+}
 @end

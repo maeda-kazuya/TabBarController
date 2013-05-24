@@ -1,5 +1,5 @@
 //
-//  TRViewController.h
+//  SecondViewController.h
 //  UniqueTabBarController
 //
 //  Created by Maeda, Kazuya | Enrique | SDTD on 5/24/13.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIButton *nextButton;
-- (IBAction)nextButtonTapped:(id)sender;
+@interface SecondViewController : UIViewController
 
 @end
