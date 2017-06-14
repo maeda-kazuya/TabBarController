@@ -2,8 +2,8 @@
 //  UniqueTabBarControllerTests.m
 //  UniqueTabBarControllerTests
 //
-//  Created by Maeda, Kazuya | Enrique | SDTD on 5/24/13.
-//  Copyright (c) 2013 Maeda, Kazuya | Enrique | SDTD. All rights reserved.
+//  Created by Maeda, Kazuya |  |  on 5/24/13.
+//  Copyright (c) 2013 Maeda, Kazuya |  | . All rights reserved.
 //
 
 #import "UniqueTabBarControllerTests.h"
